@@ -1,0 +1,1022 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body {
+	font-family: 'Asap';
+}
+.header {
+	position: relative;
+	width: 100%;
+	min-width: 320px;
+	height: 157px;
+	background: url(img/header.png) no-repeat;
+	background-size: 100%;
+}
+.head {
+	width: 100%;
+	padding: 0 10px;
+	min-width: 320px;
+	margin: auto;
+}
+.logo {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.logo a {
+	text-decoration: none;
+	text-transform: uppercase;	
+	font-family: "Asap";
+	font-size: 28px;
+	color: #FFF;
+}
+.logo a span {
+	float: left;
+}
+.logo a span b {
+	color: #2dbf6b;
+}
+.salutation {
+	float: left;
+	width: 100%;	
+	padding: 20px 0px;
+	height: 115px;
+}
+.for-tab-2, .for-tab-3 {
+	display: none;
+}
+.for-tab-1 {
+	display: table;
+}
+.text {
+	float: left;
+	margin: 0 10px;
+	color: #fff;
+	font-family: "Karla";
+	font-size: 14px;
+	text-shadow: 2px 2px 2px #000;
+}
+.salutation input {
+	display: none;
+}
+.salutation label {
+	display: none;
+}
+.btn-drop-menu {
+	position: absolute;
+	width: 52px;
+	height: 52px;
+    margin: 18px 0 0 -58px;
+	background: url(img/sprite.png) no-repeat -208px -2px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+}
+.vip:hover {
+	background-color: #2dbf6b;
+	cursor: pointer;
+}
+.vip:hover ~ div.menu {
+	display: table;
+}
+.menu {
+	display: none;
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding-top: 10px;
+}
+.btn-menu {
+	height: 30px;
+	background-color: #2dbf6b;
+	margin: 2px 0;
+	padding: 7px 0;
+	border-radius: 4px;
+	text-align: center;
+}
+.btn-menu a {
+	text-decoration: none;
+	color: #fff;
+}
+.btn-menu a .read-more {
+	display: none;
+}
+.about {
+	float: left;
+	width: 100%;
+	min-width: 320px;
+	background: url(img/autor-fon.png) no-repeat;
+}
+.text-about {
+	width: 100%;
+	padding: 0 10px;
+	float: left;
+}
+.text-about h2 {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	color: #191919;
+	font-family: "Asap";
+	font-size: 30px;
+	font-weight: normal;
+}
+.text-about div {
+	display: block;
+	color: #3f3f3f;
+	font-family: "Karla";
+	font-size: 14px;
+}
+.button {
+	float: left;
+	width: 48%;
+	height: 30px;
+	margin: 3% 1%;
+	border: 1px solid #2ec06c;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #2ec06c;
+	font-family: "Asap";
+	font-size: 18px;
+	text-align: center;
+	padding: 4px;
+}
+.button:hover {
+	background-color: #2ec06c;
+	color: #fff;
+	border-radius: 6px;
+}
+.foto-about {
+	float: left;
+	width: 100%;
+}
+.foto-about img {
+	width: 100%;
+}
+.container-3 {
+	background-color: #FFF;
+	width: 100%;
+	min-width: 320px;
+}
+.servicess {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.servicess h2 {
+	display: block;
+	margin: 4px 0;
+	font-weight: normal;
+	font-family: "Asap";
+	font-size: 20px;
+}
+.servicess span {
+	font-family: "Asap";
+	font-size: 12px;
+}
+.skill {
+	padding: 10px 10px 10px 10px;
+}
+.skill h3 {
+	font-family: "Asap";
+	font-size: 16px;
+}
+.skill p {
+	font-family: "Karla";
+	font-size: 12px;
+}
+.skill h3, .skill p {
+	margin-left: 42px;
+}
+.development::before {
+	content: "";
+	float: left;
+	width: 33px;
+	height: 33px;
+	background: url(img/sprite.png) no-repeat -260px 0;
+}
+.w-design::before {
+	content: "";
+	float: left;
+	width: 33px;
+	height: 33px;
+	background: url(img/sprite.png) no-repeat -293px 0;
+}
+.construction::before {
+	content: "";
+	float: left;
+	width: 33px;
+	height: 33px;
+	background: url(img/sprite.png) no-repeat -326px 0;
+}
+.solutions::before {
+	content: "";
+	float: left;
+	width: 33px;
+	height: 33px;
+	background: url(img/sprite.png) no-repeat -359px 0;
+}
+.container-4 {
+	float: left;
+	width: 100%;
+	min-width: 320px;
+	height: 336px;
+	margin-top: 20px;
+	background: url(img/fog.png) no-repeat;
+	background-size: auto 100%;
+}
+.skills-slider h4 {
+	display: block;
+	width: 100%;
+	height: 56px;
+	padding: 18px 0;
+	text-align: center;
+	color: #fff;
+	font-family: "Asap";
+	font-size: 11px;
+	font-weight: 100;
+}
+.skills-slider a {
+	display: block;	
+	margin-bottom: 2px;
+}
+.envato {
+	position: relative;
+	width: 165px;
+	height: 52px;
+	left: 0;
+	margin-left: 10px;
+	background: url(img/sprite-skills.png) no-repeat -32px 0;
+}
+.epils {
+	position: relative;
+	width: 151px;
+	height: 52px;
+	left: 25%;
+	margin-left: -55px;
+	background: url(img/sprite-skills.png) no-repeat -239px 0;
+}
+.less {
+	position: relative;
+	width: 86px;
+	height: 52px;
+	left: 50%;
+	margin-left: -43px;
+	background: url(img/sprite-skills.png) no-repeat -438px 0;
+}
+.jquery {
+	position: relative;
+	width: 143px;
+	height: 52px;
+	left: 75%;
+	margin-left: -91px;
+	background: url(img/sprite-skills.png) no-repeat -573px 0;
+}
+.sass {
+	position: relative;
+	width: 64px;
+	height: 52px;
+	left: 100%;
+	margin-left: -74px;
+	background: url(img/sprite-skills.png) no-repeat -766px 0;
+}
+footer {
+	clear: both;
+	float: left;
+	width: 100%;
+	height: 48px;
+	margin-top: 10px;
+	background-color: #eee;
+	font-size: 16px;
+}
+footer div {
+	width: 960px;
+	margin: auto;
+	padding: 15px 0 0 10px;
+}
+footer div b {
+	color: #2EC06C;
+}
+/**********************MY-WORK*************************/
+.works {
+	min-width: 320px;
+	margin: auto;
+}
+.my-work-960 a {
+	text-decoration: none;
+}
+.my-work-head {
+	float: left;
+	width: 100%;
+	padding: 0 10px 0;
+	color: #656565;
+	font-family: "Karla";
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.my-work-head div {
+	font-family: "Asap";
+	font-size: 18px;
+	padding: 10px 0;
+	font-weight: normal;
+}
+.my-work-head b {
+	color: #2EC06C;
+}
+.wrap-work {
+	position: relative;
+	left: 50%;
+	margin-left: -160px;
+	width: 300px;
+	height: 100%;
+}
+.my-work {
+	float: left;
+	width: 300px;
+	height: 320px;
+	margin: 0 10px 10px;
+	background-color: #eee;
+	border-radius: 0 0 10px 10px;
+}
+.my-work div {
+	width: 300px;
+	height: 250px;
+}
+.my-work img {
+	display: block;
+	width: 100%;
+	height: 250px;
+}
+.my-work span {
+	display: block;
+	text-align: center;
+	padding-top: 25px;
+	color: #1f1f1f;
+	font-family: "Asap";
+	font-size: 20px;
+}
+.my-work:hover img {
+	opacity: .25;
+}
+.my-work:hover div {
+	background: #2EC06C;
+}
+.my-work:hover div::before {
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	margin: 100px 0 0 75px;
+	background: url(img/full.png) no-repeat;
+}
+.quote {
+	float: left;
+	width: 100%;
+	height: 76px;
+	margin: auto;
+	padding-top: 10px;
+	text-align: center;
+	font-family: "Asap";
+	font-size: 12px;
+	background: url(img/fog.png) no-repeat;
+	background-size: 100%;
+	color: #fff;
+}
+.quote b {
+	padding-top: 10px;
+	color: #2EC06C;
+}
+/**********************HIRE_ME*************************/
+.inputs {
+	float: left;
+	min-width: 320px;
+}
+.messadge {
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+	text-align: center;
+	font-family: "Karla";
+	font-size: 14px;
+}
+.messadge span {
+	font-size: 18px;
+	font-family: "Asap";
+	margin-bottom: 10px;
+}
+.messadge span b {
+	color: #2EC06C;
+}
+.networks {
+	display: none;
+	width: 320px;
+}
+.networks a {
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 10px;
+	border: 1px solid #3B5998;
+	border-radius: 5px;
+}
+.networks a:hover {
+	background-color: #FF0084;
+	border: none;
+}
+.face-book {
+	background: url(img/sprite.png) no-repeat -2px -106px;
+}
+.twitter {
+	background: url(img/sprite.png) no-repeat -139px -106px;
+}
+.instagram {
+	background: url(img/sprite.png) no-repeat -282px -106px;
+}
+.world {
+	background: url(img/sprite.png) no-repeat -423px -106px;
+}
+form {
+	padding: 10px;
+	max-width: 640px;
+}
+input {
+    outline:none;
+}
+.inp-short {
+	float: left;
+	width: 100%;
+	height: 36px;
+	margin: 2px 0;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+	font-size: 16px;
+	font-style: italic;
+	font-family: "Asap";
+	color: #656565;
+	text-indent: 10px;
+}
+.inp-short:hover {
+	border-color: #2ec06c;
+}
+.inp-long {
+	position: relative;
+	width: 100%;
+	height: 160px;
+	margin: 2px 0;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+	font-size: 16px;
+	font-style: italic;
+	font-family: "Asap";
+	color: #656565;
+}
+.inp-long:hover {
+	border-color: #2ec06c;
+}
+form div::after {
+	content: "";
+	position: absolute;
+	margin: 3px 0 0 -41px;
+	background: url(img/button.png) no-repeat;
+	width: 40px;
+	height: 158px;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+}
+@media screen and (min-width: 321px) {
+	.text {
+		font-size: 5vw;
+	}
+}
+@media screen and (min-width: 480px) {
+	.header {
+		height: 200px;
+	}
+	.salutation {
+		height: 158px;		
+	}
+	.menu {
+		padding-top: 10px;
+	}
+	.btn-menu {
+		float: left;
+		width: 49%;
+		margin: 2px 2px;
+	}
+	.servicess h2 {
+		font-size: 24px;
+	}
+	.servicess span {
+		font-size: 14px;
+	}
+	.skill {
+		width: 49%;
+		float: left;
+		margin: .5%;
+	}
+	.skill p {
+		font-size: 14px;
+	}
+	.skills-slider h4 {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 640px) {
+	.inputs {
+		width: 640px;
+		position: relative;
+		left: 50%;
+		margin-left: -320px;
+	}
+	.messadge {
+		width: 640px;
+		font-size: 16px;
+		margin: 20px 0;
+		
+	}
+	.messadge span {
+		font-size: 24px;
+	}
+	.messadge p {
+		line-height: 1.5;
+	}
+	.inp-short {
+		width: 300px;
+		height: 50px;
+		margin: 10px;
+	}
+	.inp-long {
+		width: 620px;
+		margin: 10px;
+	}
+	form {
+		padding: 0;
+		width: 640px;
+	}
+	form div::after {
+		margin: 11px 0 0 -51px;
+	}
+}
+@media screen and (min-width: 720px) {
+	.header {
+		width: 100%;
+		height: 340px;
+	}
+	.text {
+		font-size: 34px;
+	}
+	.menu {
+		display: table;
+	}
+	.btn-drop-menu {
+		display: none;
+	}
+	.salutation {
+		height: 110px;
+	}
+	.text {
+		text-shadow: none;
+	}
+	.btn-menu {
+		display: table;
+		float: left;
+		padding: 0;
+		margin: 0 10px;
+		width: 22%;
+		height: 40%;
+		background: none;
+		border-radius: 0;
+	}
+	.btn-menu a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.btn-menu a .title {
+		display: block;
+		padding-top: 106px;
+		font-family: "Karla";
+		font-size: 16px;
+		text-align: center;
+	}
+	.btn-menu a .read-more {
+		display: none;
+		text-align: center;
+		padding: 6px 0;
+		background-color: #27AE60;
+		font-family: "Karla";
+		font-size: 16px;
+	}
+	.design .title::before {
+		content: "";
+		position: absolute;
+		margin: -62px 0 0 23px;
+		background: url(img/sprite.png) no-repeat 0 0;
+		width: 52px;
+		height: 52px;
+		border: 1px solid #fff;
+		border-radius: 4px;
+	}
+	.identiny .title::before {
+		content: "";
+		position: absolute;
+		margin: -62px 0 0 39px;
+		background: url(img/sprite.png) no-repeat -52px 0;
+		width: 52px;
+		height: 52px;
+		border: 1px solid #fff;
+		border-radius: 4px;
+	}
+	.idea .title::before {
+		content: "";
+		position: absolute;
+		margin: -62px 0 0 23px;
+		background: url(img/sprite.png) no-repeat -104px 0;
+		width: 52px;
+		height: 52px;
+		border: 1px solid #fff;
+		border-radius: 4px;
+	}
+	.photography .title::before {
+		content: "";
+		position: absolute;
+		margin: -62px 0 0 21px;
+		background: url(img/sprite.png) no-repeat -156px 0;
+		width: 52px;
+		height: 52px;
+		border: 1px solid #fff;
+		border-radius: 4px;
+	}
+	.btn-menu:hover {
+		background-color: #2dbf6b;
+	}
+	.btn-menu:hover .title {
+		padding: 86px 0 20px;
+	}
+	.btn-menu:hover .read-more {
+		display: block;
+	}
+	.text-about {
+		width: 50%;
+		height: 285px;
+	}
+	.text-about div {
+		height: 214px;
+	}
+	.foto-about {
+		float: right;
+		width: 50%;
+		height: 285px;
+	}
+	.foto-about img {
+		height: 100%;
+	}
+	.servicess h2 {
+		font-size: 30px;
+	}
+	.servicess span {
+		font-size: 18px;
+	}
+	.skills-slider h4 {
+		font-size: 18px;
+	}
+	.my-work-head {
+		margin: 20px 0;
+		font-size: 14px;
+	}
+	.my-work-head div {
+		font-family: "Asap";
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	.wrap-work {
+		width: 640px;
+		margin-left: -320px;
+	}
+	.quote {
+		height: 124px;
+		font-size: 18px;
+		padding-top: 20px;
+	}
+	.quote p {
+		margin-top: 20px;
+	}
+}
+@media screen and (min-width: 960px) {
+	.header {
+		width: 1300px;
+		height: 638px;
+		margin-left: -650px;
+		left: 50%;
+		background: url(img/header-fog.png) no-repeat;
+	}
+	.header:hover {
+		background: url(img/header.png) no-repeat;
+	}
+	.head {
+		width: 960px;
+		padding: 0;
+	}
+	.logo {
+		float: left;
+		width: 960px;
+		height: 77px;
+		margin: 21px 10px 0;
+	}
+	.logo a span {
+		margin: 12px 0 0 -2px;
+	}
+	.btn-drop-menu {
+		display: none;
+	}
+	.salutation {
+		padding: 70px 0px;
+		width: 960px;
+		height: 228px;
+	}
+	.for-tab-1 {
+		display: none;
+	}
+	.text {
+		font-size: 40px;
+	}
+	.labels {
+		float: right;
+		padding: 25px 0;
+	}
+	.labels label {
+		display: block;
+		width: 10px;
+		height: 10px;
+		margin: 5px 14px 0 0;
+		border-radius: 5px;
+		background-color: #4c4c4c;
+	}
+	.labels label:hover {
+		background-color: #9D9D9D;
+		cursor: pointer;	
+	}
+	#tab-1:checked ~ .for-tab-1,
+	#tab-2:checked ~ .for-tab-2,
+	#tab-3:checked ~ .for-tab-3 {
+	    display: table;
+	}
+	#tab-1:checked ~ .labels .label-1,
+	#tab-2:checked ~ .labels .label-2,
+	#tab-3:checked ~ .labels .label-3 {
+	    background-color: #fff;
+	}
+	.btn-menu {
+		width: 220px;
+	}
+	.btn-menu a .title {
+		padding-top: 136px;
+		font-size: 24px;
+	}
+	.btn-menu a .read-more {
+		display: none;
+		padding: 13px 0;
+		font-size: 18px;
+	}
+	.design .title::before {
+		margin: -78px 0 0 48px;
+		background: url(img/sprite.png) no-repeat 0 0;
+	}
+	.identiny .title::before {
+		margin: -78px 0 0 72px;
+		background: url(img/sprite.png) no-repeat -52px 0;
+	}
+	.idea .title::before {
+		margin: -78px 0 0 47px;
+		background: url(img/sprite.png) no-repeat -104px 0;
+	}
+	.photography .title::before {
+		margin: -78px 0 0 45px;
+		background: url(img/sprite.png) no-repeat -156px 0;
+	}
+	.btn-menu:hover {
+		background-color: #2dbf6b;
+	}
+	.btn-menu:hover .title {
+		padding: 106px 0 36px;
+	}
+	.btn-menu:hover .read-more {
+		display: block;
+	}
+	.wrap-1300 {
+		position: relative;
+		left: 50%;
+		width: 1300px;
+		height: 1113px;
+		margin-left: -650px;
+		background: #fff;
+	}
+	.text-about {
+		height: 583px;
+		padding: 88px 10px 0 178px;
+	}
+	.text h2 {
+		display: block;
+		height: 80px;
+		padding-bottom: 50px;
+	}
+	.text-about div {
+		font-size: 16px;
+		height: 320px;
+		line-height: 2;
+	}
+	.button {
+		width: 200px;
+		height: 60px;
+		margin: 14px 31px 0 0;
+		border-radius: 5px;
+		font-size: 18px;
+		padding: 18px;
+	}
+	.button:hover {
+		border-radius: 25px;
+	}
+	.foto-about {
+		width: 640px;
+		height: 583px;
+		background: url(img/autor-top.png) no-repeat;
+	}	
+	.foto-about img {
+		display: none;
+	}
+	.wrap-960 {
+		float: left;
+		width: 960px;
+		margin: 0 170px;
+	}
+	.servicess {
+		float: left;
+		width: 100%;
+		padding: 90px 0 46px;
+	}
+	.servicess h2 {
+		padding-bottom: 12px;
+	}
+	.skill {
+		width: 460px;
+		margin: 10px 10px;
+	}
+	.skill h3 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.skill p {
+		line-height: 1.5;
+	}
+	.skill h3, .skill p {
+		width: 320px;
+		padding: 0 10px;
+	}
+	.container-4 {
+		position: relative;
+		height: 350px;
+		margin-top: 92px;
+		background: url(img/skills-fog.png) no-repeat;
+		background-size: 100%;
+	}
+	.container-4:hover {
+		background: url(img/skills.png) no-repeat;
+	}
+	.skills-slider {
+		width: 960px;
+		margin: auto;
+		padding-top: 76px;
+	}
+	.skills-slider h4 {
+		height: 0;
+		padding: 0 0 83px;
+	}
+	.skills-slider a {
+		position: static;
+		float: left;
+		height: 52px;	
+	}
+	.skills-slider a:hover {
+		opacity: 0.75;
+	}
+	.btn-left {
+		width: 16px;
+		margin: 0 10px 0 52px;
+		background: url(img/sprite-skills.png) no-repeat 0 0;
+	}
+	.envato {
+		width: 165px;
+		margin: 0 20px 0 0;
+	}
+	.epils {
+		width: 151px;
+		margin: 0 48px 0 0;
+	}
+	.less {
+		width: 86px;
+		margin: 0 48px 0 0;
+	}
+	.jquery {
+		width: 143px;
+		margin: 0 50px 0 0;
+	}
+	.sass {
+		width: 64px;
+		margin: 0 10px 0 0;
+	}
+	.btn-right {
+		width: 18px;
+		margin-right: 20px;
+		background: url(img/sprite-skills.png) no-repeat -840px 0;
+	}
+	.works {
+		max-width: 1300px;
+		position: relative;
+		left: 50%;
+		margin-left: -650px;
+	}
+	.my-work-960 {
+		width: 960px;
+		margin: auto;
+	}
+	.my-work-head {
+		margin: 100px 0 64px;
+		font-size: 16px;
+		line-height: 2;
+		padding: 0 90px;
+		
+	}
+	.my-work-head div {
+		font-family: "Asap";
+		font-size: 30px;
+		padding-bottom: 40px;
+		line-height: 1.4;
+	}
+	.wrap-work {
+		width: 960px;
+		margin-left: -480px;
+	}
+	.my-work {
+		margin-bottom: 16px;
+	}
+	.quote {
+		width: 1300px;
+		height: 300px;
+		font-size: 18px;
+		margin-top: 80px;
+		padding-top: 100px;
+		line-height: 2;
+		background: url(img/citations-fog.png) no-repeat;
+	}
+	.quote:hover {
+		background: url(img/citations.png) no-repeat;
+	}
+	.quote div {
+		width: 960px;
+		margin: auto;
+	}
+	.quote p {
+		margin-top: 20px;
+	}
+	footer {
+		margin-top: 100px;
+	}
+	.networks {
+		display: table;
+	}
+	.inputs {
+		width: 960px;
+		margin-left: -480px;
+	}
+	.messadge {
+		width: 960px;
+		margin: 100px 0 60px;
+	}
+	.messadge span {
+		font-size: 30px;
+	}
+	.messadge p {
+		line-height: 5;
+	}
+	.networks {
+		float: left;
+	}
+	.inp-short {
+		width: 300px;
+		height: 50px;
+		margin: 10px;
+	}
+	.inp-long {
+		width: 620px;
+		margin: 10px;
+	}
+	form {
+		float: right;
+		padding: 0;
+		width: 640px;
+	}
+	form div::after {
+		margin: 11px 0 0 -51px;
+	}
+}

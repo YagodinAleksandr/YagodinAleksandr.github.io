@@ -1,110 +1,121 @@
 <!DOCTYPE html>
-<html lang="ru">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/normalize.css" media="all"/>
-		<link rel="stylesheet" href="css/bootstrap.css" media="all"/>		
-		<link rel="stylesheet" href="css/style.css" media="all"/>
-		<link rel="shortcut icon" href="icon/favicon.png" type="image/png">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" media="all">
+	<link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ALEX portfolio</title>
+</head>
+<body>
+	<div class="header">
+		<div class="head">
+			<div class="logo">
+				<a href="index.html">
+					<span><b>se</b>folio</span>
+				</a>
 
-		<title>Alexandr Yagodin</title>
-	</head>
-	<body>
-		<div class="container">
-			<div class="row">
-				<div class="temp col-md-4 col-sm-4 col-xs-6">
-					<p class="right-side">1 value</p>
-					<p class="right-side">2 value</p>
-					<p class="right-side">3 value</p>
+			</div>
+			<div class="salutation">
+				<input type="radio" name="tabs" id="tab-1" checked>
+				<input type="radio" name="tabs" id="tab-2">
+				<input type="radio" name="tabs" id="tab-3">
+				<div class="labels">
+					<label class="label-1" for="tab-1"></label>
+					<label class="label-2" for="tab-2"></label>
+					<label class="label-3" for="tab-3"></label>
 				</div>
-				<div class="temp col-md-4 col-sm-4 col-xs-6">
-					<p class="left-side">1 answer</p>
-					<p class="left-side">2 answer</p>
-					<p class="left-side">3 answer</p>
+				<div class="text for-tab-1">Hello,<b> I'm Alex</b>
+					<p><b>A FrontEnd</b> developer</p>
 				</div>
-				<div class="temp col-md-4 col-sm-4 col-xs-12">
-					third block
+				<div class="text for-tab-2">I <b>glad to see you</b>
+					<p>on my folio website</p>
+				</div>
+				<div class="text for-tab-3">I hope that <b>I can be</b>
+					<p><b>useful</b> to you</p>
 				</div>
 			</div>
-			<p>!</p>
-			<div class="row">
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-	  			<div class="temp col-md-1">.col-md-1</div>
-		</div>
-		<div class="row">
-	  		<div class="temp col-md-8">.col-md-8</div>
-	  		<div class="temp col-md-4">.col-md-4</div>
-		</div>
-		<div class="row">
-	  		<div class="temp col-md-4">.col-md-4</div>
-	  		<div class="temp col-md-4">.col-md-4</div>
-	  		<div class="temp col-md-4">.col-md-4</div>
-		</div>
-		<div class="row">
-	  		<div class="temp col-md-6">.col-md-6</div>
-	  		<div class="temp col-md-6">.col-md-6</div>
+			<i class="btn-drop-menu vip"></i>
+			<div class="menu">
+				<div class="btn-menu design">
+					<a href="#">
+						<span class="title">.UI/UX Design</span>
+						<span class="read-more">Read more</span>
+					</a>
+				</div>
+				<div class="btn-menu identiny">
+					<a href="#">
+						<span class="title">.Branding Identity</span>
+						<span class="read-more">Read more</span>
+					</a>
+				</div>
+				<div class="btn-menu idea">
+					<a href="#">
+						<span class="title">.Creative Idea</span>
+						<span class="read-more">Read more</span>
+					</a>
+				</div>
+				<div class="btn-menu photography">
+					<a href="#">
+						<span class="title">.Photography</span>
+						<span class="read-more">Read more</span>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
-
-	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
-<div class="row">
-  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-</div>
-
-<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-<div class="row">
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-</div>
-
-<!-- Columns are always 50% wide, on mobile and desktop -->
-<div class="row">
-  <div class="col-xs-6">.col-xs-6</div>
-  <div class="col-xs-6">.col-xs-6</div>
-</div>
-
-<!-- 		<div class="wrap">
-			<header>
-				<div class="left">
-					<p class="question-field">Personal information</p>
-					<br>
-					<p class="question-field">first name / surname</p>
-					<p class="question-field">cellphone</p>
-					<p class="question-field">email</p>
-					<p class="question-field">city</p>
-					<br>
-					<p class="question-field">desired position</p>
+	<div class="wrap-1300">
+		<div class="about">
+			<div class="text-about">
+				<h2>Hi! I’m <b>ALEX</b></h2>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</div>
+				<a href="my-work.html" class="button">My Work</a>
+				<a href="hire-me.html" class="button">Hire Me</a>
+			</div>
+			<div class="foto-about">
+				<img src="img/autor.png" alt="autor">
+			</div>
+		</div>
+		<div class="container-3 wrap-960">
+			<div class="servicess">
+				<h2>My <b>Servicess</b></h2>
+				<span>Showcase services in a spacious &amp; clean manner</span>
+			</div>
+			<div class="box-skills">
+				<div class="skill development">
+					<h3>Web Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
 				</div>
-				<div class="right">
-					<br>
-					<br>
-					<p class="answer">Aleksandr Yagodin</p>
-					<p class="answer">063 158 33 04</p>
-					<p class="answer">rush.glider@gmail.com</p>
-					<p class="answer">Kiev, Ukraine, 08131</p>
-					<br>
-					<p class="answer">Junior Front-end Developer</p>
+				<div class="skill w-design">
+					<h3>Web Design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
 				</div>
-				<div class="avatar">
-					<img src="img/avatar.png" alt="Smiling face">
+				<div class="skill construction">
+					<h3>Web Construction</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
 				</div>
-			</header>
-		</div> -->
-
-
-	</body>
+				<div class="skill solutions">
+					<h3>Creative Solutions</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-4 wrap-1300">
+			<div class="skills-slider">
+				<h4>Some awesome companies we've had the pleasure to work with</h4>
+				<a href="#" class="btn-left"></a>
+				<a href="#" class="envato"></a>
+				<a href="#" class="epils"></a>
+				<a href="#" class="less"></a>
+				<a href="#" class="jquery"></a>
+				<a href="#" class="sass"></a>
+				<a href="#" class="btn-right"></a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>©2018<b>Portfolio</b>/Created by ALEXander Yagodin<b></b></div>
+	</footer>
+</body>
 </html>

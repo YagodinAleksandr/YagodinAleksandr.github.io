@@ -11,7 +11,7 @@ body {
 	width: 100%;
 	min-width: 320px;
 	height: 157px;
-	background: url(img/header.png) no-repeat;
+	background: url(../img/header.png) no-repeat;
 	background-size: 100%;
 }
 .head {
@@ -27,7 +27,7 @@ body {
 }
 .logo a {
 	text-decoration: none;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	font-family: "Asap";
 	font-size: 28px;
 	color: #FFF;
@@ -40,7 +40,7 @@ body {
 }
 .salutation {
 	float: left;
-	width: 100%;	
+	width: 100%;
 	padding: 20px 0px;
 	height: 115px;
 }
@@ -69,7 +69,7 @@ body {
 	width: 52px;
 	height: 52px;
     margin: 18px 0 0 -58px;
-	background: url(img/sprite.png) no-repeat -208px -2px;
+	background: url(../img/sprite.png) no-repeat -208px -2px;
 	border: 1px solid #fff;
 	border-radius: 4px;
 }
@@ -106,7 +106,7 @@ body {
 	float: left;
 	width: 100%;
 	min-width: 320px;
-	background: url(img/autor-fon.png) no-repeat;
+	background: url(../img/autor-fon.png) no-repeat;
 }
 .text-about {
 	width: 100%;
@@ -194,36 +194,35 @@ body {
 	float: left;
 	width: 33px;
 	height: 33px;
-	background: url(img/sprite.png) no-repeat -260px 0;
+	background: url(../../img/sprite.png) no-repeat -260px 0;
 }
 .w-design::before {
 	content: "";
 	float: left;
 	width: 33px;
 	height: 33px;
-	background: url(img/sprite.png) no-repeat -293px 0;
+	background: url(../img/sprite.png) no-repeat -293px 0;
 }
 .construction::before {
 	content: "";
 	float: left;
 	width: 33px;
 	height: 33px;
-	background: url(img/sprite.png) no-repeat -326px 0;
+	background: url(../img/sprite.png) no-repeat -326px 0;
 }
 .solutions::before {
 	content: "";
 	float: left;
 	width: 33px;
 	height: 33px;
-	background: url(img/sprite.png) no-repeat -359px 0;
+	background: url(../img/sprite.png) no-repeat -359px 0;
 }
 .container-4 {
-	float: left;
 	width: 100%;
 	min-width: 320px;
 	height: 336px;
 	margin-top: 20px;
-	background: url(img/fog.png) no-repeat;
+	background: url(../img/fog.png) no-repeat;
 	background-size: auto 100%;
 }
 .skills-slider h4 {
@@ -238,48 +237,41 @@ body {
 	font-weight: 100;
 }
 .skills-slider a {
-	display: block;	
+	display: block;
 	margin-bottom: 2px;
 }
-.envato {
-	position: relative;
-	width: 165px;
+.skills-logo {
 	height: 52px;
+}
+.envato {
+	width: 165px;
 	left: 0;
 	margin-left: 10px;
-	background: url(img/sprite-skills.png) no-repeat -32px 0;
+	background: url(../img/sprite-skills.png) no-repeat -32px 0;
 }
 .epils {
-	position: relative;
 	width: 151px;
-	height: 52px;
 	left: 25%;
 	margin-left: -55px;
-	background: url(img/sprite-skills.png) no-repeat -239px 0;
+	background: url(../img/sprite-skills.png) no-repeat -239px 0;
 }
 .less {
-	position: relative;
 	width: 86px;
-	height: 52px;
 	left: 50%;
 	margin-left: -43px;
-	background: url(img/sprite-skills.png) no-repeat -438px 0;
+	background: url(../img/sprite-skills.png) no-repeat -438px 0;
 }
 .jquery {
-	position: relative;
 	width: 143px;
-	height: 52px;
 	left: 75%;
 	margin-left: -91px;
-	background: url(img/sprite-skills.png) no-repeat -573px 0;
+	background: url(../img/sprite-skills.png) no-repeat -573px 0;
 }
 .sass {
-	position: relative;
 	width: 64px;
-	height: 52px;
 	left: 100%;
 	margin-left: -74px;
-	background: url(img/sprite-skills.png) no-repeat -766px 0;
+	background: url(../img/sprite-skills.png) no-repeat -766px 0;
 }
 footer {
 	clear: both;
@@ -298,7 +290,6 @@ footer div {
 footer div b {
 	color: #2EC06C;
 }
-/**********************MY-WORK*************************/
 .works {
 	min-width: 320px;
 	margin: auto;
@@ -333,10 +324,10 @@ footer div b {
 	height: 100%;
 }
 .my-work {
-	float: left;
+	display: inline-block;
 	width: 300px;
 	height: 320px;
-	margin: 0 10px 10px;
+	margin: 8px 8px;
 	background-color: #eee;
 	border-radius: 0 0 10px 10px;
 }
@@ -369,10 +360,10 @@ footer div b {
 	width: 150px;
 	height: 50px;
 	margin: 100px 0 0 75px;
-	background: url(img/full.png) no-repeat;
+	background: url(../img/full.png) no-repeat;
 }
 .quote {
-	float: left;
+	/* float: left; */
 	width: 100%;
 	height: 76px;
 	margin: auto;
@@ -380,7 +371,7 @@ footer div b {
 	text-align: center;
 	font-family: "Asap";
 	font-size: 12px;
-	background: url(img/fog.png) no-repeat;
+	background: url(../img/fog.png) no-repeat;
 	background-size: 100%;
 	color: #fff;
 }
@@ -388,9 +379,8 @@ footer div b {
 	padding-top: 10px;
 	color: #2EC06C;
 }
-/**********************HIRE_ME*************************/
 .inputs {
-	float: left;
+	/* float: left; */
 	min-width: 320px;
 }
 .messadge {
@@ -426,16 +416,16 @@ footer div b {
 	border: none;
 }
 .face-book {
-	background: url(img/sprite.png) no-repeat -2px -106px;
+	background: url(../img/sprite.png) no-repeat -2px -106px;
 }
 .twitter {
-	background: url(img/sprite.png) no-repeat -139px -106px;
+	background: url(../img/sprite.png) no-repeat -139px -106px;
 }
 .instagram {
-	background: url(img/sprite.png) no-repeat -282px -106px;
+	background: url(../img/sprite.png) no-repeat -282px -106px;
 }
 .world {
-	background: url(img/sprite.png) no-repeat -423px -106px;
+	background: url(../img/sprite.png) no-repeat -423px -106px;
 }
 form {
 	padding: 10px;
@@ -479,7 +469,7 @@ form div::after {
 	content: "";
 	position: absolute;
 	margin: 3px 0 0 -41px;
-	background: url(img/button.png) no-repeat;
+	background: url(../img/button.png) no-repeat;
 	width: 40px;
 	height: 158px;
 	border-radius: 0 4px 4px 0;
@@ -495,7 +485,7 @@ form div::after {
 		height: 200px;
 	}
 	.salutation {
-		height: 158px;		
+		height: 158px;
 	}
 	.menu {
 		padding-top: 10px;
@@ -534,7 +524,7 @@ form div::after {
 		width: 640px;
 		font-size: 16px;
 		margin: 20px 0;
-		
+
 	}
 	.messadge span {
 		font-size: 24px;
@@ -612,7 +602,7 @@ form div::after {
 		content: "";
 		position: absolute;
 		margin: -62px 0 0 23px;
-		background: url(img/sprite.png) no-repeat 0 0;
+		background: url(../img/sprite.png) no-repeat 0 0;
 		width: 52px;
 		height: 52px;
 		border: 1px solid #fff;
@@ -622,7 +612,7 @@ form div::after {
 		content: "";
 		position: absolute;
 		margin: -62px 0 0 39px;
-		background: url(img/sprite.png) no-repeat -52px 0;
+		background: url(../img/sprite.png) no-repeat -52px 0;
 		width: 52px;
 		height: 52px;
 		border: 1px solid #fff;
@@ -632,7 +622,7 @@ form div::after {
 		content: "";
 		position: absolute;
 		margin: -62px 0 0 23px;
-		background: url(img/sprite.png) no-repeat -104px 0;
+		background: url(../img/sprite.png) no-repeat -104px 0;
 		width: 52px;
 		height: 52px;
 		border: 1px solid #fff;
@@ -642,7 +632,7 @@ form div::after {
 		content: "";
 		position: absolute;
 		margin: -62px 0 0 21px;
-		background: url(img/sprite.png) no-repeat -156px 0;
+		background: url(../img/sprite.png) no-repeat -156px 0;
 		width: 52px;
 		height: 52px;
 		border: 1px solid #fff;
@@ -709,10 +699,10 @@ form div::after {
 		height: 638px;
 		margin-left: -650px;
 		left: 50%;
-		background: url(img/header-fog.png) no-repeat;
+		background: url(../img/header-fog.png) no-repeat;
 	}
 	.header:hover {
-		background: url(img/header.png) no-repeat;
+		background: url(../img/header.png) no-repeat;
 	}
 	.head {
 		width: 960px;
@@ -755,7 +745,7 @@ form div::after {
 	}
 	.labels label:hover {
 		background-color: #9D9D9D;
-		cursor: pointer;	
+		cursor: pointer;
 	}
 	#tab-1:checked ~ .for-tab-1,
 	#tab-2:checked ~ .for-tab-2,
@@ -781,19 +771,19 @@ form div::after {
 	}
 	.design .title::before {
 		margin: -78px 0 0 48px;
-		background: url(img/sprite.png) no-repeat 0 0;
+		background: url(../img/sprite.png) no-repeat 0 0;
 	}
 	.identiny .title::before {
 		margin: -78px 0 0 72px;
-		background: url(img/sprite.png) no-repeat -52px 0;
+		background: url(../img/sprite.png) no-repeat -52px 0;
 	}
 	.idea .title::before {
 		margin: -78px 0 0 47px;
-		background: url(img/sprite.png) no-repeat -104px 0;
+		background: url(../img/sprite.png) no-repeat -104px 0;
 	}
 	.photography .title::before {
 		margin: -78px 0 0 45px;
-		background: url(img/sprite.png) no-repeat -156px 0;
+		background: url(../img/sprite.png) no-repeat -156px 0;
 	}
 	.btn-menu:hover {
 		background-color: #2dbf6b;
@@ -840,8 +830,8 @@ form div::after {
 	.foto-about {
 		width: 640px;
 		height: 583px;
-		background: url(img/autor-top.png) no-repeat;
-	}	
+		background: url(../img/autor-top.png) no-repeat;
+	}
 	.foto-about img {
 		display: none;
 	}
@@ -853,7 +843,7 @@ form div::after {
 	.servicess {
 		float: left;
 		width: 100%;
-		padding: 90px 0 46px;
+		padding: 48px 0 48px;
 	}
 	.servicess h2 {
 		padding-bottom: 12px;
@@ -877,11 +867,11 @@ form div::after {
 		position: relative;
 		height: 350px;
 		margin-top: 92px;
-		background: url(img/skills-fog.png) no-repeat;
+		background: url(../img/skills-fog.png) no-repeat;
 		background-size: 100%;
 	}
 	.container-4:hover {
-		background: url(img/skills.png) no-repeat;
+		background: url(../img/skills.png) no-repeat;
 	}
 	.skills-slider {
 		width: 960px;
@@ -895,7 +885,7 @@ form div::after {
 	.skills-slider a {
 		position: static;
 		float: left;
-		height: 52px;	
+		height: 52px;
 	}
 	.skills-slider a:hover {
 		opacity: 0.75;
@@ -903,7 +893,7 @@ form div::after {
 	.btn-left {
 		width: 16px;
 		margin: 0 10px 0 52px;
-		background: url(img/sprite-skills.png) no-repeat 0 0;
+		background: url(../img/sprite-skills.png) no-repeat 0 0;
 	}
 	.envato {
 		width: 165px;
@@ -928,7 +918,7 @@ form div::after {
 	.btn-right {
 		width: 18px;
 		margin-right: 20px;
-		background: url(img/sprite-skills.png) no-repeat -840px 0;
+		background: url(../img/sprite-skills.png) no-repeat -840px 0;
 	}
 	.works {
 		max-width: 1300px;
@@ -941,11 +931,11 @@ form div::after {
 		margin: auto;
 	}
 	.my-work-head {
-		margin: 100px 0 64px;
+		margin: 64px 0 64px;
 		font-size: 16px;
 		line-height: 2;
 		padding: 0 90px;
-		
+
 	}
 	.my-work-head div {
 		font-family: "Asap";
@@ -967,10 +957,10 @@ form div::after {
 		margin-top: 80px;
 		padding-top: 100px;
 		line-height: 2;
-		background: url(img/citations-fog.png) no-repeat;
+		background: url(../img/citations-fog.png) no-repeat;
 	}
 	.quote:hover {
-		background: url(img/citations.png) no-repeat;
+		background: url(../img/citations.png) no-repeat;
 	}
 	.quote div {
 		width: 960px;

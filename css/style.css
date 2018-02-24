@@ -25,7 +25,7 @@ body {
 	float: left;
 	margin-top: 10px;
 }
-.logo a {
+.link {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: "Asap";
@@ -36,6 +36,16 @@ body {
 	float: left;
 }
 .logo a span b {
+	color: #2dbf6b;
+}
+.language-selector {
+	float: right;
+	margin-top: 12px;
+}
+.language {
+	color: #FFF;
+}
+.language-checked {
 	color: #2dbf6b;
 }
 .salutation {
@@ -715,7 +725,7 @@ form div::after {
 		margin: 21px 10px 0;
 	}
 	.logo a span {
-		margin: 12px 0 0 -2px;
+		margin-top: 12px;
 	}
 	.btn-drop-menu {
 		display: none;
